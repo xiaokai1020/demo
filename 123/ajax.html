@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+		<script>
+			$(function(){
+				var data =[];
+				for(var k=0;k<3;k++){
+					data[k]=function(){
+						console.log(k);
+					}
+				}
+				data[0]();
+				data[1]();
+				data[2]();
+			})
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
